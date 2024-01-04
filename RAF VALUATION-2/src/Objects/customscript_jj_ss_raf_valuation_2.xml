@@ -1,0 +1,25 @@
+<scheduledscript scriptid="customscript_jj_ss_raf_valuation_2">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>JJ SS RAF Valuation-2</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/Jobinandjismi/RAF Valuation-2/jj_ss_raf_valuation_2.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_jj_ss_raf_valuation_2">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>JJ SS RAF Valuation-2</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat></repeat>
+          <startdate>2024-01-05</startdate>
+          <starttime>05:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>
